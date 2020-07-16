@@ -12,6 +12,8 @@ def line(deli)
   end
 end
 
+deli.length == 0 ? puts "no one in line" : puts "welcome to the deli"
+
 def take_a_number(deli, name)
   # binding.pry
   deli << name
